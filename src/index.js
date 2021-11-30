@@ -1,9 +1,9 @@
-const express = require('express'); //import do express
+const express = require('express'); 
 
-const app = express();  //importando função do express, passando para app
+const app = express();  
 
 app.get("/", (request, response)=> {
-  return response.json({message: "Hello World Ignite!"})
+  return response.json({message: "Hello World Ignite - Fundamentos NodeJS!"})
 })
 
-app.listen(3333); //A porta que ele vai ser inicializado
+app.listen(3333); 
